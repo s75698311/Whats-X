@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://github.com/xmtscf/Whats-X/blob/master/media/Whats-X-Thumb.png" width="300" height="300">
+  <img src="https://raw.githubusercontent.com/xmtscf/Whats-X/master/media/Whats-X-Thumb.png" width="300" height="300">
   <h1>Whats-X</h1>
 </div>
 <p align="center">

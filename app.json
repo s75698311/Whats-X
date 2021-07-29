@@ -1,7 +1,7 @@
 {
     "name": "Whats-X",
     "description": "Whats-X - Torna mais fácil e divertido usar o Whatsapp. O primeiro UserBot do mundo feito para WhatsApp.",
-    "logo": "https://github.com/xmtscf/Whats-X/blob/master/media/gif/Whats-X-Thumb.png",
+    "logo": "https://raw.githubusercontent.com/xmtscf/Whats-X/master/media/gif/Whats-X-Thumb.png",
     "keywords": ["whatsapp", "userbot", "Asena", "Whats-X", "bot", "api", "ai"],
     "repository": "https://github.com/xmtscf/Whats-X",
     "website":   "https://t.me/xmtscf",
