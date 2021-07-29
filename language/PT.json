@@ -8,11 +8,11 @@
             "COMMAND": "Comando",
             "DESC": "Descrição",
             "EXAMPLE": "Exemplo",
-            "NOT_FOUND": "*Não consegui encontrar um comando como este*",
+            "NOT_FOUND": "*Comando Inválido!*",
             "WARN": "Atenção"
         },
         "_plugin": {
-            "INSTALL_DESC": "Instale plugins externos.",
+            "INSTALL_DESC": "Instalar plugins externos.\n⌨️ Exemplo: .install plugin.py",
             "NEED_URL": "Por favor insira um URL! Exemplo:",
             "UNOFF": "⚠️ *Atenção!* \n*O plugin que você instalou não é oficial!*",
             "INVALID_URL": "```Por favor, insira um URL válido!```",
@@ -243,14 +243,14 @@
         },
         "updater": {
             "UPDATER_DESC": "Verifica as atualizações.",
-            "UPDATE": "*Seu bot está completamente atualizado!*",
+            "UPDATE": "*Seu Whats-X está atualizado!*",
             "NEW_UPDATE": "*Nova atualização disponível!*\n\nMudanças:\n```",
             "UPDATE_NOW_DESC": "Fazer atualizações.",
             "UPDATING": "_Atualizando..._",
             "INVALID_HEROKU": "*❌ Suas informações do Heroku estão erradas!*",
             "UPDATED": "*✅ Atualizado com sucesso!*",
             "UPDATED_LOCAL": "*✅ Atualizado com sucesso!*",
-            "AFTER_UPDATE": "*💬 WhatsAsena reiniciando automaticamente!*",
+            "AFTER_UPDATE": "*💬 Whats-X reiniciando automaticamente!*",
             "IN_AF": "*Certifique-se de que* ```HEROKU_APP_NAME``` *é igual a* ```app name```\n*Se esses dois valores forem iguais, altere* ```HEROKU_API_KEY```\n\n_Para acessar essas configurações Heroku >> App >> Settings >> Reavel Config Vars siga seus passos._\n_Para renovar sua chave de API Heroku >> Account >> API Key Depois de atualizar a seção, substitua-a pela chave de API antiga.._"
         },
         "weather": {
@@ -401,11 +401,11 @@
         },
         "scam": {
             "SCAM_DESC": "Cria 5 minutos de ações falsas.",
-            "SCAM_NOTFOUND": "*Você deve entrar em ação falsa!*\nTipos Existentes: ```typing & recording & online & stop```",
-            "SCAM_NULL": "```Ação incorreta inserida! Use os tipos existentes.```"
+            "SCAM_NOTFOUND": "*Você deve escolher!*\nTipos Existentes: ```typing & recording & online & stop```",
+            "SCAM_NULL": "```Ação incorreta inserida!.```"
         },
         "deepai": {
-            "DEEPAI_DESC": "Executa as ferramentas de inteligência artificial mais poderosas usando redes neurais artificiais.",
+            "DEEPAI_DESC": "Ferramentas de inteligência artificial.",
             "TEXT": "*Você deve inserir o texto! Embora eu seja uma inteligência artificial poderosa, não consigo ler seus pensamentos!*",
             "URL": "*Você deve inserir o URL da imagem!*\n*Exemplo:* https://i.hizliresim.com/nrg50b.jpg"
         },
@@ -465,7 +465,7 @@
             "FOLLOWERS": "Seguidores:",
             "NAME": "Nome:",
             "USERNAME": "Username:",
-            "REPO": "Repositorios Público:",
+            "REPO": "Repositórios:",
             "BİO": "Biografia:",
             "FOLLOWİNG": "Seguindo:",
             "COMPANY": "Companhia:",
@@ -481,7 +481,7 @@
             "UPDATE": "Última atualização:"
         },
         "tiktok": {
-            "TİKTOK": "Baixa vídeos do Tiktok.",
+            "TİKTOK": "Baixa vídeos do Tiktok.(OFF)",
             "NEED": "```Você deve inserir qualquer link do Tiktok!``` \n*Exemplo:* ```.tiktok https://vm.tiktok.com/ZSJY27ExT/```",
             "DOWN": "```Download de mídia...```",
             "LİNK": "Link do usuário:",
@@ -493,19 +493,19 @@
             "VİEW": "Visualizações:",
             "SHARE": "Ações:",
             "MUSİC": "Música:",
-            "M_AUT": "Autor musical:"
+            "M_AUT": "Autor musica:"
         },
         "lyrics": {
             "LY_DESC": "Encontra a letra da música.",
-            "NEED": "```Você deve escrever qualquer música!```",
+            "NEED": "```Preciso do nome da música!```",
             "SLY": "Letra:",
             "AUT": "Dono da música:",
             "BUL": "Música Encontrada:",
             "ARAT": "Música pesquisada:"
         },
         "covid": {
-            "COV_DESC": "Mostra a mesa cobiçada diária e geral de mais de 15 países.",
-            "NOT": "```Desculpe, não consegui encontrar um país como este! Insira os códigos de país aplicáveis!```\n\n```Country Codes:``` *.covid tr || az || usa || in || cn || nl || pk || ru || de || uk || gr || fr || jp || kz || id*"
+            "COV_DESC": "Mostra diária geral de mais de 15 países.",
+            "NOT": "```Desculpe, não consegui encontrar um país como este! Insira os códigos de país aplicáveis!```\n\n```Codigos de países:``` *.covid tr || az || usa || in || cn || nl || pk || ru || de || uk || gr || fr || jp || kz || id*"
         }
     }
 }
