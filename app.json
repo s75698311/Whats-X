@@ -1,0 +1,163 @@
+{
+    "name": "Whats-X",
+    "description": "Whats-X - Torna mais fácil e divertido usar o Whatsapp. O primeiro UserBot do mundo feito para WhatsApp.",
+    "logo": "https://github.com/xmtscf/Whats-X/blob/master/media/Whats-X-Thumb.png",
+    "keywords": ["whatsapp", "userbot", "Asena", "Whats-X", "bot", "api", "ai"],
+    "repository": "https://github.com/xmtscf/Whats-X",
+    "website":   "https://t.me/xmtscf",
+    "success_url": "https://t.me/xmtscf",
+    "stack": "container",
+    "env": {
+        "ASENA_SESSION": {
+            "description": "O código de sessão personalizado que você criou com Qr.Js. Digite aqui a sua Sessão Asena.",
+            "required": true
+        },
+        "SUDO": {
+            "description": "Deixe em branco se você não souber como usá-lo! Modo Sudo; Seu número deve ser um número internacional. Portanto, você deve ter seu número após o código do país. Exemplo: 1205xxxxxxxxx (número dos EUA +1)",
+            "required": false
+        },
+        "LANGUAGE": {
+            "description": "Linguagem de bot. Azerice => az, Inglês => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonésia => ID, Español => ES, Português => pt, Russo => ru",
+            "required": true,
+            "value": "pt"
+        },
+        "ANTİ_LİNK": {
+            "description": "Link Engelleme Sistemi. Sistema de bloqueio de link.",
+            "required": true,
+            "value": "false"
+        },
+        "AUTO_BİO": {
+            "description": "Defina como verdadeiro para adicionar automaticamente a data e a hora ao status. Definido como verdadeiro para data e hora automáticas na biografia.",
+            "required": true,
+            "value": "false"
+        },
+        "HANDLERS": {
+            "description": "Para comandos.",
+            "required": true,
+            "value": "^[.!;]"
+        },
+        "FULL_EVA": {
+            "description": "Transforme sua conta em um chatbot!",
+            "required": true,
+            "value": "false"
+        },
+        "NO_LOG": {
+            "description": "Defina true se você não quiser ver o log de erros.",
+            "required": true,
+            "value": "false"
+        },
+        "SEND_READ": {
+            "description": "Escreva true se você quiser mostrar o visto.",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU": {
+            "description": "Se estiver rodando em Heroku, digite true.",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU_API_KEY": {
+            "description": "Heroku API Key.",
+            "required": true
+        },
+        "MUTE_MESSAGE": {
+            "description": "Mensagem muda customizável! Use => padrão, para alterar de volta.",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_CHAT": {
+            "description": "Escolha em qual chat o bot não funcionará. Ex: 905xxxx && 905xxxx-1xxx ou 905xxxx, 905xxx...",
+            "required": false,
+            "value": "false"
+        },
+        "UNMUTE_MESSAGE": {
+            "description": "Mensagem Unmute customizável! Use => default, para alterar de volta.",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_MESSAGE": {
+            "description": "Customizable Block Message! Use => default, para mudar de volta.",
+            "required": false,
+            "value": "default"
+        },
+        "UNBLOCK_MESSAGE": {
+            "description": "Mensagem de desbloqueio customizável! Use => default, mudar de volta.",
+            "required": false,
+            "value": "default"
+        },
+        "WORK_TYPE": {
+            "description": "Tipo de trabalho do Whats-X. Se você usar “public”, todos podem usar o bot. Caso contrário, se você usar “private”, somente você poderá usar o seu bot.",
+            "required": true,
+            "value": "private"
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Heroku APP Name.",
+            "required": true
+        },
+        "DEBUG": {
+            "description": "É para desenvolvedores.",
+            "required": true,
+            "value": "false"
+        },
+        "REMOVE_BG_API_KEY": {
+            "description": "Remove o fundo das fotos. https://remove.bg",
+            "required": false
+        },
+        "ALIVE_MESSAGE": {
+            "description": "Mensagem alive customizável! Use => default, para mudar de volta.",
+            "required": false,
+            "value": "default"
+        },
+        "BAN_MESSAGE": {
+            "description": "Mensagem de proibição personalizável! Use => default, para mudar de volta.",
+            "required": false,
+            "value": "default"
+        },
+        "ADD_MESSAGE": {
+            "description": "Customizável Adicionar Mensagem! Use => default, para mudar de volta.",
+            "required": false,
+            "value": "default"
+        },
+        "KICKME_MESSAGE": {
+            "description": "Mensagem customizável de Kickme! Use => default, para mudar de volta.",
+            "required": false,
+            "value": "default"
+        },
+        "PROMOTE_MESSAGE": {
+            "description": "Customizável Promoção Mensagem! Use => default, para mudar de volta.",
+            "required": false,
+            "value": "default"
+        },
+        "DEMOTE_MESSAGE": {
+            "description": "Mensagem de rebaixamento customizável! Use => default, para mudar de volta.",
+            "required": false,
+            "value": "default"
+        },
+        "AFK_MESSAGE": {
+            "description": "Mensagem AFK customizável! Usar => default, mudar de volta.",
+            "required": false,
+            "value": "default"
+        },
+        "GAN_IMAGE": {
+            "description": "Digite o link da imagem para o plugin Gan Style.",
+            "required": true,
+            "value": "https://xmts.cf/images/banner.png"
+        },
+        "NO_ONLINE": {
+            "description": "Digite true se você não quiser aparecer online.",
+            "required": false,
+            "value": "true"
+        },
+        "COFFEEHOUSE_API_KEY": {
+            "description": "Passe esta etapa!",
+            "required": false,
+            "value": "true"
+        }
+    },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
